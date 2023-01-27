@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 
 """
-# Welcome to Streamlit!
+# Welcome to Streamlit! Test
 
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
 
@@ -17,8 +17,8 @@ In the meantime, below is an example of what you can do with just a few lines of
 
 
 with st.echo(code_location='below'):
-    total_points = st.slider("Number of points in spiral", 1, 5000, 2000)
-    num_turns = st.slider("Number of turns in spiral", 1, 100, 9)
+    total_points = st.slider("Number of points in spiral", 1, 5000, 3000)
+    num_turns = st.slider("Number of turns in spiral", 1, 200, 9)
 
     Point = namedtuple('Point', 'x y')
     data = []
